@@ -29,7 +29,7 @@ img{
 .list::-webkit-scrollbar { width:0; height:0; display: none; } /*注释2*/
 
 .list li{
-	width: 28%;
+	width: 74%;
     height: auto;
     border:1px solid #ccc;
     margin-right: 10px;
