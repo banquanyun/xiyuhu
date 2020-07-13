@@ -131,14 +131,14 @@
 	</div>
 	<div class="exoert_box zhongdaDiv" style="display:none">
 		<ul class="list">
-			<li><img src="https://cdn.jsdelivr.net/gh/banquanyun/xiyuhu@master/themes/images/zhongda/1.jpg"></li>
-			<li><img src="https://cdn.jsdelivr.net/gh/banquanyun/xiyuhu@master/themes/images/zhongda/2.jpg"></li>
+			<li><img src="https://cdn.jsdelivr.net/gh/banquanyun/xiyuhu@master/themes/images/zhongda1/1.jpg"></li>
+			<li><img src="https://cdn.jsdelivr.net/gh/banquanyun/xiyuhu@master/themes/images/zhongda1/2.jpg"></li>
 		</ul>
 	</div>
 	<div class="szdsh">
 		<div class="xinwl">入党积极分子积分管理<span class="jjfzSpan" style="float: right;">展开↓</span></div>
 	</div>
-	<div class="exoert_box minshengDiv" style="display:none">
+	<div class="exoert_box jjfzDiv" style="display:none">
 		<ul class="list">
 			<li><img src="https://cdn.jsdelivr.net/gh/banquanyun/xiyuhu@master/themes/images/jjfzjf/1.jpg"></li>
 		</ul>
@@ -274,11 +274,11 @@
 			$(".jjfzSpan").click(function(e) {
 				if( $(".minshengDiv").hasClass("show") ){
 					// 执行隐藏
-					$(".minshengDiv").hide().removeClass("show");
+					$(".jjfzDiv").hide().removeClass("show");
 					$(".jjfzSpan").text("展开↓");
 				}else{
 					// 显示
-					$(".minshengDiv").show().addClass("show");
+					$(".jjfzDiv").show().addClass("show");
 					$(".jjfzSpan").text("收起↑");
 				}
 			});
