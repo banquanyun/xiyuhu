@@ -293,6 +293,17 @@
 					$(".minshengSpan").text("收起↑");
 				}
 			});
+			$(".cunqingfabuSpan").click(function(e) {
+				if( $(".cunqingfabuDiv").hasClass("show") ){
+					// 执行隐藏
+					$(".cunqingfabuDiv").hide().removeClass("show");
+					$(".cunqingfabuSpan").text("展开↓");
+				}else{
+					// 显示
+					$(".cunqingfabuDiv").show().addClass("show");
+					$(".cunqingfabuSpan").text("收起↑");
+				}
+			});
    		 });
 	</script>
 </body>
